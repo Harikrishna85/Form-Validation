@@ -1,0 +1,114 @@
+/* Background image configuration */
+body {
+    background-image: url('background.jpg'); /* Add the background image */
+    background-size: cover; /* Make the image cover the entire background */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+    background-attachment: fixed; /* Make the background fixed while scrolling */
+    background-position: center; /* Center the image */
+}
+
+
+.container {
+    padding: 30px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    margin-top: 1px;
+    padding-top: 50px; /* Adjust the top padding as desired */
+   padding-bottom: 50px;
+
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+/* Hover effect on the submit button */
+button:hover {
+    background-color: blue; /* Change background color on hover */
+    box-shadow: 0 0 10px rgba(0, 221, 255, 0.91); /* Add a glowing box shadow */
+    color: white; /* Change text color */
+}
+
+input.form-control:hover {
+    border-color: #ffcc00; /* Change border color on hover */
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.6); /* Add a glowing box shadow */
+}
+
+input.form-control:focus {
+    border-color: #ffcc00; /* Change border color on focus */
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.6); /* Add a glowing box shadow */
+}
+
+input.form-control.valid {
+    border-color: green; /* Green border color */
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Green glowing box shadow */
+}
+
+/* Styles for invalid input */
+input.form-control.invalid {
+    border-color: red; /* Red border color */
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); /* Red glowing box shadow */
+}
+
+/* Styles for button hover effect based on validity */
+button.valid:hover {
+    background-color: green; /* Green background color on hover */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); /* Green glowing box shadow on hover */
+}
+
+button.invalid:hover {
+    background-color: red; /* Red background color on hover */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6); /* Red glowing box shadow on hover */
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -40px;
+  }
+
+/* Adjust color of form-check-label to dim black */
+.form-check-label {
+    color: #7a7676; /* Dim black */
+}
+
+
+/* Adjust the alignment of the form-check */
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust spacing around the form-check-input (checkbox) */
+.form-check-input {
+    margin-right: 10px; /* Add space between the checkbox and label */
+}
+
+@media (min-width: 992px) {
+    /* Adjust styles for large screens, e.g., laptops */
+    .container {
+        max-width: 500px; /* Limit the width of the container */
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Adjust styles for large screens, e.g., laptops */
+    .container {
+        max-width: 450px; /* Limit the width of the container */
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
